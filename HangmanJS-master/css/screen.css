@@ -494,3 +494,9 @@ input {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
+
+.result{
+
+  height: 100px;
+
+}

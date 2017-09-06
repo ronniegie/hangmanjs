@@ -22,24 +22,12 @@ $(function() {
 		 * Default words to pick from
 		 */
 		HangmanJS.game_words = [
-			'technology',
-			'fantastic',
-			'buckaroo',
-			'bandwagon',
-			'icebox',
-			'jawbreaker',
-			'zombie',
-			'cheese',
-			'because',
-			'football',
-			'jazz',
-			'exponential',
-			'atlantis',
-			'psychologist',
-			'archaeologist',
-			'quarantine',
-			'champion',
-			'protestant'
+			'chair',
+			'table',
+			'pen',
+			'glass',
+			'window'
+
 		];
 
 		/**
@@ -129,13 +117,6 @@ $(function() {
 			});
 		};
 
-		/**
-		 * View the credits page
-		 */
-		HangmanJS.view_credits = function() {
-			$('#credits').addClass('show');
-			HangmanJS.bind_close();
-		};
 
 		/**
 		 * Setup the game

@@ -15,6 +15,9 @@
 			<div class="content">
 				<img src="img/logo.png" class="logo">
 				<a href="#" class="button" id="play-game">Play Game</a>
+				<h1>Project Free Elect 07 2</h1>
+				<h3>Created by RG Dingle</h3>
+
 			</div>
 		</div>
 	</div>
@@ -29,16 +32,16 @@
 			<div class="game-content">
 				<div class="left-game-col">
 					<div class="word-info">
-						<h2>Guess the word!</h2>
+						<h2>Guess a word!</h2>
 						<ul class="word-characters"></ul>
 						<div class="clear"></div>
 						<div class="enter-char">
-							<h3>Enter a character</h3>
+							<h3>Enter letter</h3>
 							<input type="text" id="enter-char-input" class="input" placeholder="Guess a Character" maxlength="1">
 						</div>
 					</div>
 					<div class="game-information">
-						<h2>Game Information</h2>
+						<h2>Game Info</h2>
 						<ul>
 							<li>
 								<p>The word is <span class="word-length bold">0</span> characters long.</p>
@@ -61,17 +64,19 @@
 			</div>
 			<div class="overlay" id="overlay">
 				<div class="modal failed">
-					<h2>You've died!</h2>
-					<p>Well done there, you've managed to get yourself hanged.</p>
+					<h2>deds!</h2>
+					<img class="result" src="img/loser.gif" />
 					<a href="#" class="right js-to-menu" data-from="game">Home</a>
 				</div>
 				<div class="modal success">
 					<h2>You survived!</h2>
-					<p>Well done there, you've manage to stay alive! Go ahead and play again!</p>
+					<p>Play again!</p>
+					<img class="result" src="img/winner.gif" />
 					<a href="#" class="right js-to-menu" data-from="game">Home</a>
 				</div>
 			</div>
 		</div>
 	</div>
+
 </body>
 </html>
